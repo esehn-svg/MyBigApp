@@ -6,17 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A890BF6C2F55F2E900419105 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A890BF682F55F2E900419105 /* Assets.xcassets */; };
+		A890BF6D2F55F2E900419105 /* LandgingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A890BF692F55F2E900419105 /* LandgingView.swift */; };
+		A890BF6E2F55F2E900419105 /* MyBigAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A890BF6A2F55F2E900419105 /* MyBigAppApp.swift */; };
+		A890BF732F55F57700419105 /* GeneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A890BF722F55F57700419105 /* GeneView.swift */; };
+		A890BF752F55F59400419105 /* ProtienView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A890BF742F55F59400419105 /* ProtienView.swift */; };
+		A890BF772F55F5A600419105 /* FunctionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A890BF762F55F5A600419105 /* FunctionView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		A890BF5A2F55F21900419105 /* MyBigApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBigApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A890BF682F55F2E900419105 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A890BF692F55F2E900419105 /* LandgingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandgingView.swift; sourceTree = "<group>"; };
+		A890BF6A2F55F2E900419105 /* MyBigAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBigAppApp.swift; sourceTree = "<group>"; };
+		A890BF722F55F57700419105 /* GeneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneView.swift; sourceTree = "<group>"; };
+		A890BF742F55F59400419105 /* ProtienView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtienView.swift; sourceTree = "<group>"; };
+		A890BF762F55F5A600419105 /* FunctionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		A890BF5C2F55F21900419105 /* MyBigApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MyBigApp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A890BF572F55F21900419105 /* Frameworks */ = {
@@ -32,7 +39,7 @@
 		A890BF512F55F21900419105 = {
 			isa = PBXGroup;
 			children = (
-				A890BF5C2F55F21900419105 /* MyBigApp */,
+				A890BF6B2F55F2E900419105 /* MyBigApp */,
 				A890BF5B2F55F21900419105 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +50,27 @@
 				A890BF5A2F55F21900419105 /* MyBigApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A890BF6B2F55F2E900419105 /* MyBigApp */ = {
+			isa = PBXGroup;
+			children = (
+				A890BF6F2F55F30800419105 /* Views */,
+				A890BF682F55F2E900419105 /* Assets.xcassets */,
+				A890BF6A2F55F2E900419105 /* MyBigAppApp.swift */,
+			);
+			path = MyBigApp;
+			sourceTree = "<group>";
+		};
+		A890BF6F2F55F30800419105 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A890BF692F55F2E900419105 /* LandgingView.swift */,
+				A890BF722F55F57700419105 /* GeneView.swift */,
+				A890BF742F55F59400419105 /* ProtienView.swift */,
+				A890BF762F55F5A600419105 /* FunctionView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +87,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				A890BF5C2F55F21900419105 /* MyBigApp */,
 			);
 			name = MyBigApp;
 			packageProductDependencies = (
@@ -109,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A890BF6C2F55F2E900419105 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A890BF752F55F59400419105 /* ProtienView.swift in Sources */,
+				A890BF772F55F5A600419105 /* FunctionView.swift in Sources */,
+				A890BF6D2F55F2E900419105 /* LandgingView.swift in Sources */,
+				A890BF6E2F55F2E900419105 /* MyBigAppApp.swift in Sources */,
+				A890BF732F55F57700419105 /* GeneView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
