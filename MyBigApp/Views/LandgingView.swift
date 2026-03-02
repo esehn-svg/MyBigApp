@@ -13,33 +13,32 @@ struct LandgingView: View {
             
             GeneView()
                 .tabItem {
-                    Image(systemName: "globe")
-                    Text("World Clock")
+                    Image(systemName: "gene.fill")
+                    Text("Gene")
                 }
                 .tag(1)
             
                 
                 ProtienView()
                     .tabItem {
-                        Image(systemName: "alarm.fill")
-                        Text("Alarm")
+                        Image(systemName: "protien.fill")
+                        Text("Protien")
                     }
                     .tag(2)
      
                 FunctionView()
                     .tabItem {
-                        Image(systemName: "stopwatch.fill")
-                        Text("Stopwatch")
+                        Image(systemName: "function.fill")
+                        Text("Function")
                     }
                     .tag(3)
             }
-
+        .tint(.blue)
         }
 
         
         }
-       
-    }
+    
 
 
 #Preview {
